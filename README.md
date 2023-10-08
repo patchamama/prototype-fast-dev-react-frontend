@@ -33,6 +33,18 @@ rm -rf node_modules/ && npm i
 npm install axios
 ```
 
+### Validate type of data in JS (See more details)[https://fullstackopen.com/en/part5/props_children_and_proptypes#prop-types]
+
+```
+npm install prop-types
+```
+
+### ESlint (See more details)[https://fullstackopen.com/en/part5/props_children_and_proptypes#e-slint]
+
+```
+npm install --save-dev eslint-plugin-jest
+```
+
 #### Available Scripts
 
 In the project directory, you can run:
