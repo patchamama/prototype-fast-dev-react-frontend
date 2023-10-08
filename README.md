@@ -21,7 +21,7 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-_If there is errors with modules, maybe reinstall all the modules: `rm -rf node_modules/ && npm i`_
+_If there is errors with modules, maybe reinstall all the modules for scratch: `rm -rf node_modules/ && npm i`_
 
 ### Install extra libraries
 
@@ -42,6 +42,8 @@ npm install prop-types
 ```
 npm install --save-dev eslint-plugin-jest
 ```
+
+_The configuration file to ESLint is (.eslintrc.cjs)[.eslintrc.cjs]_
 
 #### To Testing (See more details)[https://fullstackopen.com/en/part5/testing_react_apps#rendering-the-component-for-tests]
 
