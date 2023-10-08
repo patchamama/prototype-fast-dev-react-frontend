@@ -25,7 +25,7 @@ _If there is errors with modules, maybe reinstall all the modules: `rm -rf node_
 
 ### Install extra libraries
 
-#### To fetch data can be used axios
+#### To fetch data can be used axios (See more details)[https://fullstackopen.com/en/part2/getting_data_from_server#axios-and-promises]
 
 ```
 npm install axios
@@ -62,9 +62,13 @@ _Execute the test with: `npm run cypress:open`_
 
 In the project directory, you can run:
 
-```
-npm test
-```
+- dev: `npm run dev`
+- build: `npm run build`
+- lint: `npm run lint`
+- preview: `npm run preview`
+- json-server: `npm run server`
+- cypress test: `npm run cypress:open`
+- cypress e2e test: `npm run test:e2e`
 
 ## Deployment
 
